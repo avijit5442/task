@@ -11,7 +11,20 @@ export default function ProjectIndex(){
             setDetails(data)
           )
     }
-    //In axios its coming as {object Object} as response in console and in both axios and fetch method it's not showing data on UI
+    function handleDelete(e){
+           var ID=e.target.id;
+           var f=details.filter((item)=>item._id!==ID)
+           setDetails(f)
+    }
+    //How to edit from UI & from database ?
+function handleSpeak(e){
+        var name=e.target.id
+        var speech=new SpeechSynthesisUtterance(); 
+        speech.text=name
+        //console.log(name)
+        window.speechSynthesis.speak(speech)
+   //speak-not working?     
+  }
     return(
         <>
         <h2 className="container text-center text-success">Personal Project Management Tool</h2>
@@ -37,7 +50,7 @@ export default function ProjectIndex(){
             {axios.post("http://localhost:9400/postproject",values)}
         }
           >
-           <div className="col-6">
+           <div className="col-4">
             <h2 className="text-center text-danger">Enter Project Details</h2>
             <Form className="container m-4 text-center">
                 <dl>
@@ -61,7 +74,7 @@ export default function ProjectIndex(){
             </Form>
            </div> 
            </Formik>
-           <div className="col-6">
+           <div className="col-8">
                <h2 className="text-center text-danger" style={{cursor:"pointer"}}onClick={submitProject}>Project Details</h2>
                <div className="overflow-auto" style={{height:'600px'}}>
                <div>
@@ -77,7 +90,9 @@ export default function ProjectIndex(){
                             <tr>
                               <td>{project.Project}</td>
                               <td><p>{project.Contributor}</p></td>
-                              <td><a href={project.Link}>{project.Link}</a></td>
+                              <td><a href={project.Link}>{project.Link}</a></td>  
+                              <button id={project._id} className="btn btn-danger m-2 btn-sm"onClick={handleDelete}>delete</button>
+                              <i className="bi bi-volume-down-fill" id={project.Project} onClick={handleSpeak}></i>
                             </tr>
                         </>
                     )

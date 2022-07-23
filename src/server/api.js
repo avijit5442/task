@@ -216,7 +216,6 @@ app.get("/getprojects",(request,response)=>{
             })
         }
     })
-    
 })
 
 app.listen(9400)
