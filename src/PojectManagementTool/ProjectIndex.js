@@ -21,9 +21,7 @@ function handleSpeak(e){
         var name=e.target.id
         var speech=new SpeechSynthesisUtterance(); 
         speech.text=name
-        //console.log(name)
-        window.speechSynthesis.speak(speech)
-   //speak-not working?     
+        window.speechSynthesis.speak(speech)    
   }
     return(
         <>
@@ -92,6 +90,7 @@ function handleSpeak(e){
                               <td><p>{project.Contributor}</p></td>
                               <td><a href={project.Link}>{project.Link}</a></td>  
                               <button id={project._id} className="btn btn-danger m-2 btn-sm"onClick={handleDelete}>delete</button>
+                              <button id={project._id} className="btn btn-danger m-2 btn-sm"onClick={handleDelete}>edit</button>
                               <i className="bi bi-volume-down-fill" id={project.Project} onClick={handleSpeak}></i>
                             </tr>
                         </>
