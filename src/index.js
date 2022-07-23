@@ -71,7 +71,7 @@ root.render(
      <Users/>
        <PushFormData/>
        <AxiosDemo/>
-     <ShoppingIndex/>
+     
       <BankIndexpage/>
       <IshopIndex/>
          <MainComponent/>    
@@ -79,7 +79,7 @@ root.render(
      
 */
 <React.StrictMode>
-
+<ShoppingIndex/>
 <ProjectIndex/>
  <TravelRouteTable/>
 
