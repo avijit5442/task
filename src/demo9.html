@@ -1,0 +1,12 @@
+
+<script>
+    function preview() {
+    frame.src=URL.createObjectURL(event.target.files[0]);
+    var inp=document.querySelector("input");
+}         
+</script>
+<form>
+  <input type="file" onchange="preview()" >
+  <img id="frame" width="100px" height="100px"/>
+</form>
+<input/>

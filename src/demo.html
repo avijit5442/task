@@ -1,0 +1,23 @@
+<head>
+
+
+    <script>
+        let months=["January","February","March","April","May","June","July","August","September","October","November","December"]
+			function body(){for(i of months) {
+                const li=document.createElement("li");
+                li.innerHTML=i;
+                li.style.listStyleType="none";
+				document.querySelector("ol").appendChild(li);
+			}
+        }
+            
+    </script>
+
+
+</head>
+<body onload="body()">
+    <ol>
+
+    </ol>
+
+</body>

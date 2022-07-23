@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <script>
+        var arr=[];
+        var p=document.querySelector("label");
+        var el = document.getElementById("someId");
+for (var i = 0, atts = el.attributes, n = atts.length, arr = []; i < n; i++){
+    arr.push(atts[i].nodeName);
+}
+     </script>
+     <label id="someId">
+
+     </label>
+     <script>
+        let img=document.createElement("img");
+        for (property in img){
+             document.write(`<br>${property}`)
+        }
+     </script>
+</body>
+</html>

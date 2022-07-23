@@ -1,0 +1,28 @@
+<script>
+class Car{
+    constructor(brand,maker){
+        this.carname=brand;
+        this.carmaker=maker
+    }
+    present(){
+        return `I Have an `+this.carname+","+` maker:`+this.carmaker +`,`
+    }
+}
+class Model extends Car{
+    constructor(brand,mod,yr,maker){
+        super(brand,maker)
+        this.model=mod;
+        this.year=yr;
+    }
+    show(){
+        return this.present()+` It is a `+this.model+","+` this was bought in year `+this.year
+    }
+}
+let myCar=new Model("Audi","R8","2010","DC");
+document.write(myCar.show())
+</script>
+<select>
+    <option>Hii</option>
+    <optgroup label="S.me"><option>hii2</option><option>hii3</option></optgroup>
+    <optgroup>Hii3</optgroup>
+</select>
