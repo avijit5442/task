@@ -71,17 +71,17 @@ root.render(
      <Users/>
        <PushFormData/>
        <AxiosDemo/>
-     
+     <ShoppingIndex/>
       <BankIndexpage/>
       <IshopIndex/>
          <MainComponent/>    
          <TodoRouteTable/>
-     
+         <TravelRouteTable/>
 */
 <React.StrictMode>
-<ShoppingIndex/>
-<ProjectIndex/>
- <TravelRouteTable/>
+
+ <ProjectIndex/>
+ 
 
 </React.StrictMode>
 );
