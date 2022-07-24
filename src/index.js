@@ -78,10 +78,13 @@ root.render(
          <MainComponent/>    
          <TodoRouteTable/>
          <TravelRouteTable/>
-  //<BlogRouteTable/>
+         <ProjectIndex/>
 */
-<React.StrictMode>  
- <ProjectIndex/>
+<React.StrictMode>
+
+
+ <BlogRouteTable/>
+
 </React.StrictMode>
 );
 reportWebVitals();
