@@ -54,6 +54,7 @@ import TravelMainPage from './Travel App/TravelMainPage';
 import TravelRouteTable from './Travel App/TravelRouteTable';
 import TodoRouteTable from './TO-do list/TodoRouteTable';
 import ProjectIndex from './PojectManagementTool/ProjectIndex';
+import BlogRouteTable from './Public Blog app/BlogRouteTable';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -77,11 +78,12 @@ root.render(
          <MainComponent/>    
          <TodoRouteTable/>
          <TravelRouteTable/>
+         <ProjectIndex/>
 */
 <React.StrictMode>
 
- <ProjectIndex/>
- 
+
+ <BlogRouteTable/>
 
 </React.StrictMode>
 );
