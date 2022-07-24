@@ -16,7 +16,7 @@ export default function ProjectIndex(){
            var f=details.filter((item)=>item._id!==ID)
            setDetails(f)
     }
-    //How to edit from UI & from database ?
+    //How to edit from both UI & database ?
 function handleSpeak(e){
         var name=e.target.id
         var speech=new SpeechSynthesisUtterance(); 
