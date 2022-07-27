@@ -191,7 +191,7 @@ app.post("/postproject",(req,res)=>{
     let details={
         Contributor:req.body.Contributor,
         Project:req.body.Project,
-        Time:req.body.Time,
+        Date:req.body.Date,
         Description:req.body.Description,
         Link:req.body.Link,
     }

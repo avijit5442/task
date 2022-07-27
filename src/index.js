@@ -55,6 +55,8 @@ import TravelRouteTable from './Travel App/TravelRouteTable';
 import TodoRouteTable from './TO-do list/TodoRouteTable';
 import ProjectIndex from './PojectManagementTool/ProjectIndex';
 import BlogRouteTable from './Public Blog app/BlogRouteTable';
+import FetchNasaApi from './components/FetchNasaApi';
+import ShoppingCartPractice from './ShoopingCartPractice';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -74,17 +76,18 @@ root.render(
        <AxiosDemo/>
      <ShoppingIndex/>
       <BankIndexpage/>
-      <IshopIndex/>
+      
          <MainComponent/>    
          <TodoRouteTable/>
-         <TravelRouteTable/>
-         <ProjectIndex/>
+           <IshopIndex/>
+           <TravelRouteTable/>
+           <ProjectIndex/>
+           <BlogRouteTable/>
+               <FetchNasaApi/>
+         <ShoppingCartPractice/>
 */
 <React.StrictMode>
-
-
- <BlogRouteTable/>
-
+   <ProjectIndex/>
 </React.StrictMode>
 );
 reportWebVitals();

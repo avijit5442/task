@@ -2,7 +2,6 @@ import React from 'react'
 import { Link, useParams,Outlet } from 'react-router-dom'
 import {useState,useEffect} from "react"
 import axios from "axios"
-import IshopProductdetails from './IshopProductdetails'
 export default function Products() {
   const[category,setcategory]=useState()
   const[products,setProducts]=useState([])

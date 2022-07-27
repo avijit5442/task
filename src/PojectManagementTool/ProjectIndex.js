@@ -40,7 +40,7 @@ function handleSpeak(e){
           validationSchema={yup.object({
             Contributor:yup.string().required(),
             Project:yup.string().required(),
-            Time:yup.string(),
+            Date:yup.string().required(),
             Description:yup.string().required(),
             Link:yup.string().required()
           })}
@@ -58,8 +58,8 @@ function handleSpeak(e){
                   <dt>Project Name</dt>
                   <dd><Field type="text" name="Project"/></dd>
                   <dd><ErrorMessage name="Project"></ErrorMessage></dd>
-                  <dt>Time Taken</dt>
-                  <dd><Field placeholder="In hours" type="text" name="Time"/></dd>
+                  <dt>Date</dt>
+                  <dd><Field type="date" name="Date"/></dd>
                   <dd><ErrorMessage name="Time"></ErrorMessage></dd>
                   <dt>Project Description</dt>
                   <dd><Field placeholder="Details like Components,achieved functionalities etc." type="text" name="Description"/></dd>
@@ -80,7 +80,9 @@ function handleSpeak(e){
                             <tr>
                               <th>Project Name</th>
                               <th>Contributor's Name</th>
+                              <th>Date</th>
                               <th>Web link</th>
+                              
                             </tr>
                   {   
                     details.map(project=> 
@@ -88,6 +90,7 @@ function handleSpeak(e){
                             <tr>
                               <td>{project.Project}</td>
                               <td><p>{project.Contributor}</p></td>
+                              <td>{project.Date}</td>
                               <td><a href={project.Link}>{project.Link}</a></td>  
                               <button id={project._id} className="btn btn-danger m-2 btn-sm"onClick={handleDelete}>delete</button>
                               <button id={project._id} className="btn btn-danger m-2 btn-sm"onClick={handleDelete}>edit</button>
