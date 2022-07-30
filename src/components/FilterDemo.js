@@ -41,6 +41,7 @@ export default function FilterDemo(){
     }
    return(
     <>
+    
     <div className="col-4 container">
     <div className="row">
         <label>Product Name</label>
@@ -71,7 +72,8 @@ export default function FilterDemo(){
         </dl>
         </div>
     </div>  
-    </div>         
+    </div>
+            
     </>
    ) 
 }

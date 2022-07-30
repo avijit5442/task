@@ -57,6 +57,8 @@ import ProjectIndex from './PojectManagementTool/ProjectIndex';
 import BlogRouteTable from './Public Blog app/BlogRouteTable';
 import FetchNasaApi from './components/FetchNasaApi';
 import ShoppingCartPractice from './ShoopingCartPractice';
+import MealRegister from "./Task for Anand Games/MealRegister"
+import MealRouter from './Task for Anand Games/MealRouter';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -72,22 +74,21 @@ root.render(
      <TextBoxDemo/>
      <CustomHookDemo/>
      <Users/>
-       <PushFormData/>
-       <AxiosDemo/>
+     <PushFormData/>
+     <AxiosDemo/>
      <ShoppingIndex/>
-      <BankIndexpage/>
-      
-         <MainComponent/>    
-         <TodoRouteTable/>
-           <IshopIndex/>
-           <TravelRouteTable/>
-           <ProjectIndex/>
-           <BlogRouteTable/>
-               <FetchNasaApi/>
-         <ShoppingCartPractice/>
+     <BankIndexpage/>
+     <MainComponent/>    
+     <TodoRouteTable/>
+     <TravelRouteTable/>
+     <IshopIndex/>
+     <BlogRouteTable/>
+     <FetchNasaApi/>
+     <ShoppingCartPractice/>
+     <ProjectIndex/>
 */
 <React.StrictMode>
-   <ProjectIndex/>
+   <MealRouter/>
 </React.StrictMode>
 );
 reportWebVitals();

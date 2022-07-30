@@ -218,5 +218,39 @@ app.get("/getprojects",(request,response)=>{
     })
 })
 
+app.get("/getuser",(req,res)=>{
+    mongoClient.connect(connectionString,(err,clients)=>{
+        if(!err){
+            var database=clients.db("reactdb")
+            database.collection("tblmeal").find({}).toArray((err,documents)=>{
+                res.send(documents)
+            })
+        }
+    })
+})
+
+app.post("/registeruser",(req,res)=>{
+    details={
+        Name:req.body.Name,
+        Photo:req.body.Photo,
+        Profession:req.body.Profession,
+        Gender:req.body.Gender,
+        Mobile:req.body.Mobile,
+        Email:req.body.Email,
+        Password:req.body.Password,
+        CPwd:req.body.CPwd,
+        Terms:req.body.Terms
+    }
+    mongoClient.connect(connectionString,(error,client)=>{
+        if(!error){
+            client.db("reactdb").collection("tblmeal").insertOne(details,(error,response)=>{
+                if(!error){
+                    console.log("Details inserted")
+                }
+            })
+        }
+    })
+})
+
 app.listen(9400)
 console.log("server started http://127.0.0.1:9400")

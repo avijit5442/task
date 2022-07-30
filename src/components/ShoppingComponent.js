@@ -51,8 +51,6 @@ export default function ShoppingComponent()
             })
            
     }
-
-
     function emptyCart(){
         cartItems.length = 0;
         setItemsCount(0)

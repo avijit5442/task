@@ -51,7 +51,8 @@ export default function FormikBindingValidation() {
             <table>
                 <tr>
             <td><label>First Name : </label></td>
-            <td><input type="text"value={formik.values.firstName} onChange={formik.handleChange}name="firstName"/></td>
+            <td><input type="text"value={formik.values.firstName} onChange={formik.handleChange}name="firstName"
+            /></td>
             <td className="text-danger">{formik.errors.firstName}</td>
                 </tr> 
                 <tr>
