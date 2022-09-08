@@ -1,0 +1,487 @@
+[debug] [2022-09-08T08:54:12.729Z] ----------------------------------------------------------------------
+[debug] [2022-09-08T08:54:12.734Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-08T08:54:12.735Z] CLI Version:   11.8.0
+[debug] [2022-09-08T08:54:12.735Z] Platform:      win32
+[debug] [2022-09-08T08:54:12.735Z] Node Version:  v16.15.1
+[debug] [2022-09-08T08:54:12.738Z] Time:          Thu Sep 08 2022 14:24:12 GMT+0530 (India Standard Time)
+[debug] [2022-09-08T08:54:12.738Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-08T08:54:12.868Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-08T08:54:12.869Z] > authorizing via signed-in user (avijitbehera01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aviji\OneDrive\Desktop\files\REACT-instagram
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-08T08:54:20.095Z] Using project from CLI flag: tasklogin-17689
+[debug] [2022-09-08T08:54:20.101Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 [none]
+[debug] [2022-09-08T08:54:20.612Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 200
+[debug] [2022-09-08T08:54:20.612Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 {"projectId":"tasklogin-17689","projectNumber":"286705927108","displayName":"taskLogin","name":"projects/tasklogin-17689","resources":{"hostingSite":"tasklogin-17689"},"state":"ACTIVE","etag":"1_ae9a4eda-77b8-4cbf-a50f-752938117b8e"}
+[info] i  Using project tasklogin-17689 (taskLogin) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-09-08T08:54:47.508Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-09-08T08:54:57.561Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-09-08T08:54:57.562Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.4","browserURL":"https://www.gstatic.com/firebasejs/9.9.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.4/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.4/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-09-08T08:55:31.843Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-08T08:55:48.581Z] ----------------------------------------------------------------------
+[debug] [2022-09-08T08:55:48.585Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-09-08T08:55:48.586Z] CLI Version:   11.8.0
+[debug] [2022-09-08T08:55:48.587Z] Platform:      win32
+[debug] [2022-09-08T08:55:48.587Z] Node Version:  v16.15.1
+[debug] [2022-09-08T08:55:48.589Z] Time:          Thu Sep 08 2022 14:25:48 GMT+0530 (India Standard Time)
+[debug] [2022-09-08T08:55:48.589Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-08T08:55:48.716Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-08T08:55:48.717Z] > authorizing via signed-in user (avijitbehera01@gmail.com)
+[debug] [2022-09-08T08:55:48.717Z] [iam] checking project tasklogin-17689 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-09-08T08:55:48.722Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tasklogin-17689:testIamPermissions [none]
+[debug] [2022-09-08T08:55:48.723Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tasklogin-17689:testIamPermissions x-goog-quota-user=projects/tasklogin-17689
+[debug] [2022-09-08T08:55:48.723Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tasklogin-17689:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-09-08T08:57:43.661Z] ----------------------------------------------------------------------
+[debug] [2022-09-08T08:57:43.666Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-08T08:57:43.668Z] CLI Version:   11.8.0
+[debug] [2022-09-08T08:57:43.669Z] Platform:      win32
+[debug] [2022-09-08T08:57:43.669Z] Node Version:  v16.15.1
+[debug] [2022-09-08T08:57:43.673Z] Time:          Thu Sep 08 2022 14:27:43 GMT+0530 (India Standard Time)
+[debug] [2022-09-08T08:57:43.674Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-08T08:57:43.852Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-08T08:57:43.854Z] > authorizing via signed-in user (avijitbehera01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aviji\OneDrive\Desktop\files\REACT-instagram
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[debug] [2022-09-08T08:58:03.804Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-08T08:58:23.230Z] ----------------------------------------------------------------------
+[debug] [2022-09-08T08:58:23.234Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-08T08:58:23.235Z] CLI Version:   11.8.0
+[debug] [2022-09-08T08:58:23.236Z] Platform:      win32
+[debug] [2022-09-08T08:58:23.236Z] Node Version:  v16.15.1
+[debug] [2022-09-08T08:58:23.238Z] Time:          Thu Sep 08 2022 14:28:23 GMT+0530 (India Standard Time)
+[debug] [2022-09-08T08:58:23.239Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-08T08:58:23.435Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-08T08:58:23.437Z] > authorizing via signed-in user (avijitbehera01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aviji\OneDrive\Desktop\files\REACT-instagram
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-08T08:58:31.293Z] Using project from CLI flag: tasklogin-17689
+[debug] [2022-09-08T08:58:31.301Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 [none]
+[debug] [2022-09-08T08:58:35.581Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 200
+[debug] [2022-09-08T08:58:35.582Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 {"projectId":"tasklogin-17689","projectNumber":"286705927108","displayName":"taskLogin","name":"projects/tasklogin-17689","resources":{"hostingSite":"tasklogin-17689"},"state":"ACTIVE","etag":"1_81e3a0db-80ff-4feb-85ad-5b61840e9144"}
+[info] i  Using project tasklogin-17689 (taskLogin) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-09-08T08:58:49.402Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-09-08T09:00:32.477Z] ----------------------------------------------------------------------
+[debug] [2022-09-08T09:00:32.481Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-08T09:00:32.482Z] CLI Version:   11.8.0
+[debug] [2022-09-08T09:00:32.483Z] Platform:      win32
+[debug] [2022-09-08T09:00:32.483Z] Node Version:  v16.15.1
+[debug] [2022-09-08T09:00:32.485Z] Time:          Thu Sep 08 2022 14:30:32 GMT+0530 (India Standard Time)
+[debug] [2022-09-08T09:00:32.485Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-08T09:00:32.729Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-08T09:00:32.730Z] > authorizing via signed-in user (avijitbehera01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aviji\OneDrive\Desktop\files\REACT-instagram
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-08T09:00:42.680Z] Using project from CLI flag: tasklogin-17689
+[debug] [2022-09-08T09:00:42.689Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 [none]
+[debug] [2022-09-08T09:01:12.706Z] Timeout reached making request to https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689
+[debug] [2022-09-08T09:01:17.745Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-08T09:01:48.210Z] ----------------------------------------------------------------------
+[debug] [2022-09-08T09:01:48.214Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-08T09:01:48.215Z] CLI Version:   11.8.0
+[debug] [2022-09-08T09:01:48.215Z] Platform:      win32
+[debug] [2022-09-08T09:01:48.215Z] Node Version:  v16.15.1
+[debug] [2022-09-08T09:01:48.217Z] Time:          Thu Sep 08 2022 14:31:48 GMT+0530 (India Standard Time)
+[debug] [2022-09-08T09:01:48.217Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-08T09:01:48.360Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-08T09:01:48.361Z] > authorizing via signed-in user (avijitbehera01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aviji\OneDrive\Desktop\files\REACT-instagram
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-08T09:01:53.413Z] Using project from CLI flag: tasklogin-17689
+[debug] [2022-09-08T09:01:53.418Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 [none]
+[debug] [2022-09-08T09:02:08.246Z] Failed to make request to https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689
+[debug] [2022-09-08T09:02:08.622Z] FirebaseError: Failed to make request to https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689
+    at RetryOperation._fn (C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:242:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+[error] 
+[error] Error: Failed to get Firebase project tasklogin-17689. Please make sure the project exists and your account has permission to access it.
+[debug] [2022-09-08T09:06:08.529Z] ----------------------------------------------------------------------
+[debug] [2022-09-08T09:06:08.537Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2022-09-08T09:06:08.539Z] CLI Version:   11.8.0
+[debug] [2022-09-08T09:06:08.539Z] Platform:      win32
+[debug] [2022-09-08T09:06:08.540Z] Node Version:  v16.15.1
+[debug] [2022-09-08T09:06:08.541Z] Time:          Thu Sep 08 2022 14:36:08 GMT+0530 (India Standard Time)
+[debug] [2022-09-08T09:06:08.542Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-08T09:06:08.705Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-08T09:06:08.705Z] > authorizing via signed-in user (avijitbehera01@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\aviji\OneDrive\Desktop\files\REACT-instagram
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-09-08T09:06:15.766Z] Using project from CLI flag: tasklogin-17689
+[debug] [2022-09-08T09:06:15.780Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 [none]
+[debug] [2022-09-08T09:06:18.848Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 200
+[debug] [2022-09-08T09:06:18.849Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 {"projectId":"tasklogin-17689","projectNumber":"286705927108","displayName":"taskLogin","name":"projects/tasklogin-17689","resources":{"hostingSite":"tasklogin-17689"},"state":"ACTIVE","etag":"1_81e3a0db-80ff-4feb-85ad-5b61840e9144"}
+[info] i  Using project tasklogin-17689 (taskLogin) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2022-09-08T09:06:51.218Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2022-09-08T09:06:59.492Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2022-09-08T09:06:59.492Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"9.9.4","browserURL":"https://www.gstatic.com/firebasejs/9.9.4/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/9.9.4/firebase.tgz"},"live":{"version":"9.9","browserURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/9.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/9.9.4/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/9.9.4/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/9.9.4/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/9.9.4/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/9.9.4/firebase-auth/cordova.js","auth/react-native":"https://www.gstatic.com/firebasejs/9.9.4/firebase-auth/react-native.js","functions":"https://www.gstatic.com/firebasejs/9.9.4/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/9.9.4/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/9.9.4/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/9.9.4/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/9.9.4/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/9.9.4/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/9.9.4/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/9.9.4/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/9.9.4/firebase-firestore.memory.js"}}
+[info] i  Skipping write of build/index.html 
+[info] 
+[info] i  Writing configuration info to firebase.json... 
+[info] i  Writing project information to .firebaserc... 
+[info] 
+[info] +  Firebase initialization complete! 
+[debug] [2022-09-08T09:07:24.125Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.
+[debug] [2022-09-08T09:07:38.926Z] ----------------------------------------------------------------------
+[debug] [2022-09-08T09:07:38.929Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy
+[debug] [2022-09-08T09:07:38.931Z] CLI Version:   11.8.0
+[debug] [2022-09-08T09:07:38.931Z] Platform:      win32
+[debug] [2022-09-08T09:07:38.931Z] Node Version:  v16.15.1
+[debug] [2022-09-08T09:07:38.934Z] Time:          Thu Sep 08 2022 14:37:38 GMT+0530 (India Standard Time)
+[debug] [2022-09-08T09:07:38.935Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-09-08T09:07:39.108Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-09-08T09:07:39.109Z] > authorizing via signed-in user (avijitbehera01@gmail.com)
+[debug] [2022-09-08T09:07:39.109Z] [iam] checking project tasklogin-17689 for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2022-09-08T09:07:39.113Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/tasklogin-17689:testIamPermissions [none]
+[debug] [2022-09-08T09:07:39.114Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/tasklogin-17689:testIamPermissions x-goog-quota-user=projects/tasklogin-17689
+[debug] [2022-09-08T09:07:39.114Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tasklogin-17689:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-09-08T09:07:52.457Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/tasklogin-17689:testIamPermissions 200
+[debug] [2022-09-08T09:07:52.458Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/tasklogin-17689:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2022-09-08T09:07:52.460Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 [none]
+[debug] [2022-09-08T09:08:03.045Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 200
+[debug] [2022-09-08T09:08:03.045Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 {"projectId":"tasklogin-17689","projectNumber":"286705927108","displayName":"taskLogin","name":"projects/tasklogin-17689","resources":{"hostingSite":"tasklogin-17689"},"state":"ACTIVE","etag":"1_81e3a0db-80ff-4feb-85ad-5b61840e9144"}
+[info] 
+[info] === Deploying to 'tasklogin-17689'...
+[info] 
+[info] i  deploying hosting 
+[debug] [2022-09-08T09:08:03.052Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 [none]
+[debug] [2022-09-08T09:08:04.009Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 200
+[debug] [2022-09-08T09:08:04.010Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/tasklogin-17689 {"projectId":"tasklogin-17689","projectNumber":"286705927108","displayName":"taskLogin","name":"projects/tasklogin-17689","resources":{"hostingSite":"tasklogin-17689"},"state":"ACTIVE","etag":"1_81e3a0db-80ff-4feb-85ad-5b61840e9144"}
+[debug] [2022-09-08T09:08:04.018Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions [none]
+[debug] [2022-09-08T09:08:04.018Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions {"config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[debug] [2022-09-08T09:08:21.456Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions 200
+[debug] [2022-09-08T09:08:21.457Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions {"name":"projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b","status":"CREATED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"}}
+[info] i  hosting[tasklogin-17689]: beginning deploy... 
+[info] i  hosting[tasklogin-17689]: found 27 files in build 
+[debug] [2022-09-08T09:08:21.537Z] [hosting] uploading with 200 concurrency
+[debug] [2022-09-08T09:08:22.128Z] [hosting] hash cache [YnVpbGQ] stored for 27 files
+[debug] [2022-09-08T09:08:22.129Z] [hosting][hash queue][FINAL] {"max":555,"min":18,"avg":99.62962962962963,"active":0,"complete":27,"success":27,"errored":0,"retried":0,"total":27,"elapsed":582}
+[debug] [2022-09-08T09:08:22.132Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b:populateFiles [none]
+[debug] [2022-09-08T09:08:22.132Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b:populateFiles {"files":{"/manifest.json":"aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","/robots.txt":"bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","/images/e-commerce-electronics.webp":"1acc95bca1c58d29e2a3c2343cbfa43432bffdbfbdabb207a1610a83e85f714e","/images/e-commerce-jewellery.jpg":"2ffcef2baf5e64f96b6f1bbd98a0c8d90f345e01cf4058f98daf1bb20cdaac47","/images/e-commerce-men's fashion.jpg":"cd0543a4b0dac1586cb1eaa0e8698b946888087da8741a0d2b421dfda1c7176c","/images/e-commerce-women's fashion.jpg":"b27e7caf1a2e2591ef39a8063098e26654c558b0188bab399832f45c49c608b1","/images/e-commerce.jpg":"e07f2ee9c7afac501c79e4314947de4c5db50090c4917d24860ce14724ee02b2","/images/shopping1.jpg":"9c0866b20ebd2e3e851e4cef4b1c26861f848bdb3aa08fcc5a171d757a762ea7","/images/shopping2.jpg":"2cd053244461f8103862e55dc8b5867579f67f2a5affa0d97d0aa9272e698276","/images/shopping3.jpg":"1f96e2814c5f3f8e32e4b283efdc379d5ce68d0b88f8da0bdfcca36871c232f8","/images/shopping4.jpg":"20e487b0ae7493ab0a1064a1e56e68ac47275cf49a9a011a7d0ad823635bd66f","/images/shopping5.jpg":"8a5b2f7d142cd4e29e866bbc56c00770eac1f918d908caebd855b0bfbb293122","/index.html":"9db4ed0d54d562bf0c06f72973d213645521b08b02d365c4254f3d47c5528bfb","/favicon.ico":"4d7a3557dec90667534e967710f65d1201627fb202c05e32d61dd73811aea9d6","/asset-manifest.json":"cfeb0e37968fa78cf5e6ce669f430ac60742de276bb546264ae36f444ce21132","/static/js/787.0fb9b3d3.chunk.js":"98c0f139801ee8516a59da79fad7e12c31150f72a5878d52104c7cd1e14367b0","/static/js/787.0fb9b3d3.chunk.js.map":"e9fdfba6236577c0df0690d5ec39961d5dd5c0e5c331d8a909b1ad56d35930d2","/static/js/main.d77eb6cc.js.LICENSE.txt":"58987ca2a8ffee65d40412c2a267217bac1a5c5c2ae495b3be3feb23f9edddd8","/static/media/Beaches_1.bee195a64dd01b437c1b.webp":"4da7d5d9bd342c0c23b6a50589bcb1218c733e4590740f9bd6d734ce825b81a7","/static/media/homemade food.9510aa716d359b17d2e5.jpg":"a6be0685d3b42fa0113e767799333720749696b679c3a7e93b0513be94ba555c","/images/welcome.jpg":"db84dd19c44f22bb71b31e2f4fffbb5cfc034a7db1bef3036ee2b820be32fc6c","/static/css/main.2ad2cb46.css":"34c940543abea7d2a02238e3e3de2df2aea24bab0395bfbe70563592ca99400b","/static/media/bootstrap-icons.f2539a501be3a673de05.woff2":"3dcdcb765f3ec2104ccd793c8366336d2402e0535924c61a88fbb7852da83400","/static/media/bootstrap-icons.7ff3ca6fa798de3f8ac2.woff":"55ac105abb420f3678a07d612c2f8b8b558850cae52cb44138817222b24784f7","/static/js/main.d77eb6cc.js":"d27457c1ed98214d02bd8c5018e7ed9a69c863ca801b9fceb53edf07104ae034","/static/css/main.2ad2cb46.css.map":"e2e6de25dc5a60c8e18cdcc23be91a7d0bd0b3be80e3bee6527a42ce935ced2d","/static/js/main.d77eb6cc.js.map":"88e37b1c0a5d01f3a697366583dbd508a37ec947eeced5cc2cfa7a625d371f42"}}
+[debug] [2022-09-08T09:08:24.095Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b:populateFiles 200
+[debug] [2022-09-08T09:08:24.095Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b:populateFiles {"uploadRequiredHashes":["2ffcef2baf5e64f96b6f1bbd98a0c8d90f345e01cf4058f98daf1bb20cdaac47","9db4ed0d54d562bf0c06f72973d213645521b08b02d365c4254f3d47c5528bfb","88e37b1c0a5d01f3a697366583dbd508a37ec947eeced5cc2cfa7a625d371f42","9c0866b20ebd2e3e851e4cef4b1c26861f848bdb3aa08fcc5a171d757a762ea7","e2e6de25dc5a60c8e18cdcc23be91a7d0bd0b3be80e3bee6527a42ce935ced2d","34c940543abea7d2a02238e3e3de2df2aea24bab0395bfbe70563592ca99400b","e07f2ee9c7afac501c79e4314947de4c5db50090c4917d24860ce14724ee02b2","4d7a3557dec90667534e967710f65d1201627fb202c05e32d61dd73811aea9d6","aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a","8a5b2f7d142cd4e29e866bbc56c00770eac1f918d908caebd855b0bfbb293122","cfeb0e37968fa78cf5e6ce669f430ac60742de276bb546264ae36f444ce21132","a6be0685d3b42fa0113e767799333720749696b679c3a7e93b0513be94ba555c","cd0543a4b0dac1586cb1eaa0e8698b946888087da8741a0d2b421dfda1c7176c","e9fdfba6236577c0df0690d5ec39961d5dd5c0e5c331d8a909b1ad56d35930d2","db84dd19c44f22bb71b31e2f4fffbb5cfc034a7db1bef3036ee2b820be32fc6c","b27e7caf1a2e2591ef39a8063098e26654c558b0188bab399832f45c49c608b1","3dcdcb765f3ec2104ccd793c8366336d2402e0535924c61a88fbb7852da83400","1acc95bca1c58d29e2a3c2343cbfa43432bffdbfbdabb207a1610a83e85f714e","2cd053244461f8103862e55dc8b5867579f67f2a5affa0d97d0aa9272e698276","55ac105abb420f3678a07d612c2f8b8b558850cae52cb44138817222b24784f7","4da7d5d9bd342c0c23b6a50589bcb1218c733e4590740f9bd6d734ce825b81a7","bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49","20e487b0ae7493ab0a1064a1e56e68ac47275cf49a9a011a7d0ad823635bd66f","58987ca2a8ffee65d40412c2a267217bac1a5c5c2ae495b3be3feb23f9edddd8","d27457c1ed98214d02bd8c5018e7ed9a69c863ca801b9fceb53edf07104ae034","1f96e2814c5f3f8e32e4b283efdc379d5ce68d0b88f8da0bdfcca36871c232f8","98c0f139801ee8516a59da79fad7e12c31150f72a5878d52104c7cd1e14367b0"],"uploadUrl":"https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files"}
+[debug] [2022-09-08T09:08:24.109Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/2ffcef2baf5e64f96b6f1bbd98a0c8d90f345e01cf4058f98daf1bb20cdaac47 [none]
+[debug] [2022-09-08T09:08:24.110Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/2ffcef2baf5e64f96b6f1bbd98a0c8d90f345e01cf4058f98daf1bb20cdaac47 [stream]
+[debug] [2022-09-08T09:08:24.113Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/9db4ed0d54d562bf0c06f72973d213645521b08b02d365c4254f3d47c5528bfb [none]
+[debug] [2022-09-08T09:08:24.113Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/9db4ed0d54d562bf0c06f72973d213645521b08b02d365c4254f3d47c5528bfb [stream]
+[debug] [2022-09-08T09:08:24.116Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/88e37b1c0a5d01f3a697366583dbd508a37ec947eeced5cc2cfa7a625d371f42 [none]
+[debug] [2022-09-08T09:08:24.116Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/88e37b1c0a5d01f3a697366583dbd508a37ec947eeced5cc2cfa7a625d371f42 [stream]
+[debug] [2022-09-08T09:08:24.118Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/9c0866b20ebd2e3e851e4cef4b1c26861f848bdb3aa08fcc5a171d757a762ea7 [none]
+[debug] [2022-09-08T09:08:24.118Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/9c0866b20ebd2e3e851e4cef4b1c26861f848bdb3aa08fcc5a171d757a762ea7 [stream]
+[debug] [2022-09-08T09:08:24.121Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e2e6de25dc5a60c8e18cdcc23be91a7d0bd0b3be80e3bee6527a42ce935ced2d [none]
+[debug] [2022-09-08T09:08:24.121Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e2e6de25dc5a60c8e18cdcc23be91a7d0bd0b3be80e3bee6527a42ce935ced2d [stream]
+[debug] [2022-09-08T09:08:24.122Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/34c940543abea7d2a02238e3e3de2df2aea24bab0395bfbe70563592ca99400b [none]
+[debug] [2022-09-08T09:08:24.123Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/34c940543abea7d2a02238e3e3de2df2aea24bab0395bfbe70563592ca99400b [stream]
+[debug] [2022-09-08T09:08:24.126Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e07f2ee9c7afac501c79e4314947de4c5db50090c4917d24860ce14724ee02b2 [none]
+[debug] [2022-09-08T09:08:24.127Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e07f2ee9c7afac501c79e4314947de4c5db50090c4917d24860ce14724ee02b2 [stream]
+[debug] [2022-09-08T09:08:24.128Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/4d7a3557dec90667534e967710f65d1201627fb202c05e32d61dd73811aea9d6 [none]
+[debug] [2022-09-08T09:08:24.129Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/4d7a3557dec90667534e967710f65d1201627fb202c05e32d61dd73811aea9d6 [stream]
+[debug] [2022-09-08T09:08:24.131Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [none]
+[debug] [2022-09-08T09:08:24.131Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2022-09-08T09:08:24.133Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/8a5b2f7d142cd4e29e866bbc56c00770eac1f918d908caebd855b0bfbb293122 [none]
+[debug] [2022-09-08T09:08:24.133Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/8a5b2f7d142cd4e29e866bbc56c00770eac1f918d908caebd855b0bfbb293122 [stream]
+[debug] [2022-09-08T09:08:24.135Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/cfeb0e37968fa78cf5e6ce669f430ac60742de276bb546264ae36f444ce21132 [none]
+[debug] [2022-09-08T09:08:24.135Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/cfeb0e37968fa78cf5e6ce669f430ac60742de276bb546264ae36f444ce21132 [stream]
+[debug] [2022-09-08T09:08:24.137Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/a6be0685d3b42fa0113e767799333720749696b679c3a7e93b0513be94ba555c [none]
+[debug] [2022-09-08T09:08:24.137Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/a6be0685d3b42fa0113e767799333720749696b679c3a7e93b0513be94ba555c [stream]
+[debug] [2022-09-08T09:08:24.138Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/cd0543a4b0dac1586cb1eaa0e8698b946888087da8741a0d2b421dfda1c7176c [none]
+[debug] [2022-09-08T09:08:24.138Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/cd0543a4b0dac1586cb1eaa0e8698b946888087da8741a0d2b421dfda1c7176c [stream]
+[debug] [2022-09-08T09:08:24.139Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e9fdfba6236577c0df0690d5ec39961d5dd5c0e5c331d8a909b1ad56d35930d2 [none]
+[debug] [2022-09-08T09:08:24.140Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e9fdfba6236577c0df0690d5ec39961d5dd5c0e5c331d8a909b1ad56d35930d2 [stream]
+[debug] [2022-09-08T09:08:24.146Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/db84dd19c44f22bb71b31e2f4fffbb5cfc034a7db1bef3036ee2b820be32fc6c [none]
+[debug] [2022-09-08T09:08:24.146Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/db84dd19c44f22bb71b31e2f4fffbb5cfc034a7db1bef3036ee2b820be32fc6c [stream]
+[debug] [2022-09-08T09:08:24.148Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/b27e7caf1a2e2591ef39a8063098e26654c558b0188bab399832f45c49c608b1 [none]
+[debug] [2022-09-08T09:08:24.149Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/b27e7caf1a2e2591ef39a8063098e26654c558b0188bab399832f45c49c608b1 [stream]
+[debug] [2022-09-08T09:08:24.150Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/3dcdcb765f3ec2104ccd793c8366336d2402e0535924c61a88fbb7852da83400 [none]
+[debug] [2022-09-08T09:08:24.153Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/3dcdcb765f3ec2104ccd793c8366336d2402e0535924c61a88fbb7852da83400 [stream]
+[debug] [2022-09-08T09:08:24.155Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/1acc95bca1c58d29e2a3c2343cbfa43432bffdbfbdabb207a1610a83e85f714e [none]
+[debug] [2022-09-08T09:08:24.155Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/1acc95bca1c58d29e2a3c2343cbfa43432bffdbfbdabb207a1610a83e85f714e [stream]
+[debug] [2022-09-08T09:08:24.157Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/2cd053244461f8103862e55dc8b5867579f67f2a5affa0d97d0aa9272e698276 [none]
+[debug] [2022-09-08T09:08:24.157Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/2cd053244461f8103862e55dc8b5867579f67f2a5affa0d97d0aa9272e698276 [stream]
+[debug] [2022-09-08T09:08:24.159Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/55ac105abb420f3678a07d612c2f8b8b558850cae52cb44138817222b24784f7 [none]
+[debug] [2022-09-08T09:08:24.159Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/55ac105abb420f3678a07d612c2f8b8b558850cae52cb44138817222b24784f7 [stream]
+[debug] [2022-09-08T09:08:24.161Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/4da7d5d9bd342c0c23b6a50589bcb1218c733e4590740f9bd6d734ce825b81a7 [none]
+[debug] [2022-09-08T09:08:24.161Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/4da7d5d9bd342c0c23b6a50589bcb1218c733e4590740f9bd6d734ce825b81a7 [stream]
+[debug] [2022-09-08T09:08:24.162Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [none]
+[debug] [2022-09-08T09:08:24.163Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2022-09-08T09:08:24.164Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/20e487b0ae7493ab0a1064a1e56e68ac47275cf49a9a011a7d0ad823635bd66f [none]
+[debug] [2022-09-08T09:08:24.164Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/20e487b0ae7493ab0a1064a1e56e68ac47275cf49a9a011a7d0ad823635bd66f [stream]
+[debug] [2022-09-08T09:08:24.166Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/58987ca2a8ffee65d40412c2a267217bac1a5c5c2ae495b3be3feb23f9edddd8 [none]
+[debug] [2022-09-08T09:08:24.166Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/58987ca2a8ffee65d40412c2a267217bac1a5c5c2ae495b3be3feb23f9edddd8 [stream]
+[debug] [2022-09-08T09:08:24.168Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/d27457c1ed98214d02bd8c5018e7ed9a69c863ca801b9fceb53edf07104ae034 [none]
+[debug] [2022-09-08T09:08:24.168Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/d27457c1ed98214d02bd8c5018e7ed9a69c863ca801b9fceb53edf07104ae034 [stream]
+[debug] [2022-09-08T09:08:24.169Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/1f96e2814c5f3f8e32e4b283efdc379d5ce68d0b88f8da0bdfcca36871c232f8 [none]
+[debug] [2022-09-08T09:08:24.169Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/1f96e2814c5f3f8e32e4b283efdc379d5ce68d0b88f8da0bdfcca36871c232f8 [stream]
+[debug] [2022-09-08T09:08:24.170Z] >>> [apiv2][query] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/98c0f139801ee8516a59da79fad7e12c31150f72a5878d52104c7cd1e14367b0 [none]
+[debug] [2022-09-08T09:08:24.170Z] >>> [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/98c0f139801ee8516a59da79fad7e12c31150f72a5878d52104c7cd1e14367b0 [stream]
+[debug] [2022-09-08T09:08:24.171Z] [hosting][populate queue][FINAL] {"max":1984,"min":1984,"avg":1984,"active":0,"complete":1,"success":1,"errored":0,"retried":0,"total":1,"elapsed":2046}
+[debug] [2022-09-08T09:08:24.171Z] [hosting] uploads queued: 27
+[debug] [2022-09-08T09:08:26.367Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/58987ca2a8ffee65d40412c2a267217bac1a5c5c2ae495b3be3feb23f9edddd8 200
+[debug] [2022-09-08T09:08:26.368Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/58987ca2a8ffee65d40412c2a267217bac1a5c5c2ae495b3be3feb23f9edddd8 [stream]
+[debug] [2022-09-08T09:08:27.324Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/34c940543abea7d2a02238e3e3de2df2aea24bab0395bfbe70563592ca99400b 200
+[debug] [2022-09-08T09:08:27.325Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/34c940543abea7d2a02238e3e3de2df2aea24bab0395bfbe70563592ca99400b [stream]
+[debug] [2022-09-08T09:08:27.327Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e07f2ee9c7afac501c79e4314947de4c5db50090c4917d24860ce14724ee02b2 200
+[debug] [2022-09-08T09:08:27.327Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e07f2ee9c7afac501c79e4314947de4c5db50090c4917d24860ce14724ee02b2 [stream]
+[debug] [2022-09-08T09:08:27.329Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e2e6de25dc5a60c8e18cdcc23be91a7d0bd0b3be80e3bee6527a42ce935ced2d 200
+[debug] [2022-09-08T09:08:27.329Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e2e6de25dc5a60c8e18cdcc23be91a7d0bd0b3be80e3bee6527a42ce935ced2d [stream]
+[debug] [2022-09-08T09:08:27.333Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/98c0f139801ee8516a59da79fad7e12c31150f72a5878d52104c7cd1e14367b0 200
+[debug] [2022-09-08T09:08:27.333Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/98c0f139801ee8516a59da79fad7e12c31150f72a5878d52104c7cd1e14367b0 [stream]
+[debug] [2022-09-08T09:08:27.404Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/a6be0685d3b42fa0113e767799333720749696b679c3a7e93b0513be94ba555c 200
+[debug] [2022-09-08T09:08:27.404Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/a6be0685d3b42fa0113e767799333720749696b679c3a7e93b0513be94ba555c [stream]
+[debug] [2022-09-08T09:08:27.406Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/1acc95bca1c58d29e2a3c2343cbfa43432bffdbfbdabb207a1610a83e85f714e 200
+[debug] [2022-09-08T09:08:27.406Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/1acc95bca1c58d29e2a3c2343cbfa43432bffdbfbdabb207a1610a83e85f714e [stream]
+[debug] [2022-09-08T09:08:27.408Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/9db4ed0d54d562bf0c06f72973d213645521b08b02d365c4254f3d47c5528bfb 200
+[debug] [2022-09-08T09:08:27.408Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/9db4ed0d54d562bf0c06f72973d213645521b08b02d365c4254f3d47c5528bfb [stream]
+[debug] [2022-09-08T09:08:27.410Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/9c0866b20ebd2e3e851e4cef4b1c26861f848bdb3aa08fcc5a171d757a762ea7 200
+[debug] [2022-09-08T09:08:27.410Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/9c0866b20ebd2e3e851e4cef4b1c26861f848bdb3aa08fcc5a171d757a762ea7 [stream]
+[debug] [2022-09-08T09:08:27.411Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e9fdfba6236577c0df0690d5ec39961d5dd5c0e5c331d8a909b1ad56d35930d2 200
+[debug] [2022-09-08T09:08:27.412Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/e9fdfba6236577c0df0690d5ec39961d5dd5c0e5c331d8a909b1ad56d35930d2 [stream]
+[debug] [2022-09-08T09:08:27.413Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 200
+[debug] [2022-09-08T09:08:27.413Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/bfe106a3fb878dc83461c86818bf74fc1bdc7f28538ba613cd3e775516ce8b49 [stream]
+[debug] [2022-09-08T09:08:27.592Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/2cd053244461f8103862e55dc8b5867579f67f2a5affa0d97d0aa9272e698276 200
+[debug] [2022-09-08T09:08:27.592Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/2cd053244461f8103862e55dc8b5867579f67f2a5affa0d97d0aa9272e698276 [stream]
+[debug] [2022-09-08T09:08:27.594Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/cfeb0e37968fa78cf5e6ce669f430ac60742de276bb546264ae36f444ce21132 200
+[debug] [2022-09-08T09:08:27.594Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/cfeb0e37968fa78cf5e6ce669f430ac60742de276bb546264ae36f444ce21132 [stream]
+[debug] [2022-09-08T09:08:27.598Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/4da7d5d9bd342c0c23b6a50589bcb1218c733e4590740f9bd6d734ce825b81a7 200
+[debug] [2022-09-08T09:08:27.598Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/4da7d5d9bd342c0c23b6a50589bcb1218c733e4590740f9bd6d734ce825b81a7 [stream]
+[debug] [2022-09-08T09:08:27.600Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a 200
+[debug] [2022-09-08T09:08:27.600Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/aff3449bdc238776f5d6d967f19ec491b36aed5fb7f23ccff6500736fd58494a [stream]
+[debug] [2022-09-08T09:08:27.622Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/4d7a3557dec90667534e967710f65d1201627fb202c05e32d61dd73811aea9d6 200
+[debug] [2022-09-08T09:08:27.622Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/4d7a3557dec90667534e967710f65d1201627fb202c05e32d61dd73811aea9d6 [stream]
+[debug] [2022-09-08T09:08:27.763Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/db84dd19c44f22bb71b31e2f4fffbb5cfc034a7db1bef3036ee2b820be32fc6c 200
+[debug] [2022-09-08T09:08:27.764Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/db84dd19c44f22bb71b31e2f4fffbb5cfc034a7db1bef3036ee2b820be32fc6c [stream]
+[debug] [2022-09-08T09:08:27.849Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/8a5b2f7d142cd4e29e866bbc56c00770eac1f918d908caebd855b0bfbb293122 200
+[debug] [2022-09-08T09:08:27.850Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/8a5b2f7d142cd4e29e866bbc56c00770eac1f918d908caebd855b0bfbb293122 [stream]
+[debug] [2022-09-08T09:08:28.293Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/20e487b0ae7493ab0a1064a1e56e68ac47275cf49a9a011a7d0ad823635bd66f 200
+[debug] [2022-09-08T09:08:28.293Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/20e487b0ae7493ab0a1064a1e56e68ac47275cf49a9a011a7d0ad823635bd66f [stream]
+[debug] [2022-09-08T09:08:28.297Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/55ac105abb420f3678a07d612c2f8b8b558850cae52cb44138817222b24784f7 200
+[debug] [2022-09-08T09:08:28.297Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/55ac105abb420f3678a07d612c2f8b8b558850cae52cb44138817222b24784f7 [stream]
+[debug] [2022-09-08T09:08:28.298Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/cd0543a4b0dac1586cb1eaa0e8698b946888087da8741a0d2b421dfda1c7176c 200
+[debug] [2022-09-08T09:08:28.299Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/cd0543a4b0dac1586cb1eaa0e8698b946888087da8741a0d2b421dfda1c7176c [stream]
+[debug] [2022-09-08T09:08:28.532Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/b27e7caf1a2e2591ef39a8063098e26654c558b0188bab399832f45c49c608b1 200
+[debug] [2022-09-08T09:08:28.533Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/b27e7caf1a2e2591ef39a8063098e26654c558b0188bab399832f45c49c608b1 [stream]
+[debug] [2022-09-08T09:08:28.655Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/2ffcef2baf5e64f96b6f1bbd98a0c8d90f345e01cf4058f98daf1bb20cdaac47 200
+[debug] [2022-09-08T09:08:28.655Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/2ffcef2baf5e64f96b6f1bbd98a0c8d90f345e01cf4058f98daf1bb20cdaac47 [stream]
+[debug] [2022-09-08T09:08:28.680Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/d27457c1ed98214d02bd8c5018e7ed9a69c863ca801b9fceb53edf07104ae034 200
+[debug] [2022-09-08T09:08:28.681Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/d27457c1ed98214d02bd8c5018e7ed9a69c863ca801b9fceb53edf07104ae034 [stream]
+[debug] [2022-09-08T09:08:29.626Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/3dcdcb765f3ec2104ccd793c8366336d2402e0535924c61a88fbb7852da83400 200
+[debug] [2022-09-08T09:08:29.627Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/3dcdcb765f3ec2104ccd793c8366336d2402e0535924c61a88fbb7852da83400 [stream]
+[debug] [2022-09-08T09:08:29.809Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/88e37b1c0a5d01f3a697366583dbd508a37ec947eeced5cc2cfa7a625d371f42 200
+[debug] [2022-09-08T09:08:29.809Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/88e37b1c0a5d01f3a697366583dbd508a37ec947eeced5cc2cfa7a625d371f42 [stream]
+[debug] [2022-09-08T09:08:29.814Z] <<< [apiv2][status] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/1f96e2814c5f3f8e32e4b283efdc379d5ce68d0b88f8da0bdfcca36871c232f8 200
+[debug] [2022-09-08T09:08:29.814Z] <<< [apiv2][body] POST https://upload-firebasehosting.googleapis.com/upload/sites/tasklogin-17689/versions/a810d8b6e9a5588b/files/1f96e2814c5f3f8e32e4b283efdc379d5ce68d0b88f8da0bdfcca36871c232f8 [stream]
+[debug] [2022-09-08T09:08:29.814Z] [hosting][upload queue][FINAL] {"max":5711,"min":2261,"avg":3814.222222222222,"active":0,"complete":27,"success":27,"errored":0,"retried":0,"total":27,"elapsed":5718}
+[info] +  hosting[tasklogin-17689]: file upload complete 
+[debug] [2022-09-08T09:08:29.826Z] [hosting] deploy completed after 8364ms
+[debug] [2022-09-08T09:08:29.839Z] [
+  {
+    "config": {
+      "public": "build",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ],
+      "site": "tasklogin-17689"
+    },
+    "site": "tasklogin-17689",
+    "version": "projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b"
+  }
+]
+[info] i  hosting[tasklogin-17689]: finalizing version... 
+[debug] [2022-09-08T09:08:29.843Z] >>> [apiv2][query] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b updateMask=status%2Cconfig
+[debug] [2022-09-08T09:08:29.844Z] >>> [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b {"status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]}}
+[debug] [2022-09-08T09:08:31.228Z] <<< [apiv2][status] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b 200
+[debug] [2022-09-08T09:08:31.228Z] <<< [apiv2][body] PATCH https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b {"name":"projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-09-08T09:08:16.592880Z","createUser":{"email":"avijitbehera01@gmail.com"},"finalizeTime":"2022-09-08T09:08:41.510219Z","finalizeUser":{"email":"avijitbehera01@gmail.com"}}
+[debug] [2022-09-08T09:08:31.228Z] [hosting] finalized version for tasklogin-17689:[object Object]
+[info] +  hosting[tasklogin-17689]: version finalized 
+[info] i  hosting[tasklogin-17689]: releasing new version... 
+[debug] [2022-09-08T09:08:31.231Z] >>> [apiv2][query] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/releases versionName=projects%2F286705927108%2Fsites%2Ftasklogin-17689%2Fversions%2Fa810d8b6e9a5588b
+[debug] [2022-09-08T09:08:31.231Z] >>> [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/releases {"message":null}
+[debug] [2022-09-08T09:08:32.771Z] <<< [apiv2][status] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/releases 200
+[debug] [2022-09-08T09:08:32.771Z] <<< [apiv2][body] POST https://firebasehosting.googleapis.com/v1beta1/projects/286705927108/sites/tasklogin-17689/releases {"name":"projects/286705927108/sites/tasklogin-17689/releases/1662628121903737","version":{"name":"projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-09-08T09:08:16.592880Z","createUser":{"email":"avijitbehera01@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucpEhahGNxjRG6doQn3yfJkZ_BrNWsPlJ1L4q0R3"},"finalizeTime":"2022-09-08T09:08:41.510219Z","finalizeUser":{"email":"avijitbehera01@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucpEhahGNxjRG6doQn3yfJkZ_BrNWsPlJ1L4q0R3"}},"type":"DEPLOY","releaseTime":"2022-09-08T09:08:41.903737903Z","releaseUser":{"email":"avijitbehera01@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucpEhahGNxjRG6doQn3yfJkZ_BrNWsPlJ1L4q0R3"}}
+[debug] [2022-09-08T09:08:32.771Z] [hosting] release: {"name":"projects/286705927108/sites/tasklogin-17689/releases/1662628121903737","version":{"name":"projects/286705927108/sites/tasklogin-17689/versions/a810d8b6e9a5588b","status":"FINALIZED","config":{"rewrites":[{"glob":"**","path":"/index.html"}]},"labels":{"deployment-tool":"cli-firebase"},"createTime":"2022-09-08T09:08:16.592880Z","createUser":{"email":"avijitbehera01@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucpEhahGNxjRG6doQn3yfJkZ_BrNWsPlJ1L4q0R3"},"finalizeTime":"2022-09-08T09:08:41.510219Z","finalizeUser":{"email":"avijitbehera01@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucpEhahGNxjRG6doQn3yfJkZ_BrNWsPlJ1L4q0R3"}},"type":"DEPLOY","releaseTime":"2022-09-08T09:08:41.903737903Z","releaseUser":{"email":"avijitbehera01@gmail.com","imageUrl":"https://lh3.googleusercontent.com/a-/AFdZucpEhahGNxjRG6doQn3yfJkZ_BrNWsPlJ1L4q0R3"}}
+[info] +  hosting[tasklogin-17689]: release complete 
+[info] 
+[info] +  Deploy complete! 
+[info] 
+[info] Project Console: https://console.firebase.google.com/project/tasklogin-17689/overview
+[info] Hosting URL: https://tasklogin-17689.web.app
+[debug] [2022-09-08T09:09:03.869Z] Error: Timed out.
+    at Timeout._onTimeout (C:\Users\aviji\AppData\Roaming\npm\node_modules\firebase-tools\lib\utils.js:253:49)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+[error] 
+[error] Error: An unexpected error has occurred.

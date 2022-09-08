@@ -1,5 +1,9 @@
 {
   "projects": {
-    "default": "reactishop"
-  }
+    "default": "tasklogin-17689",
+    "reactmealbook": "reactmealbook",
+    "login": "tasklogin-17689"
+  },
+  "targets": {},
+  "etags": {}
 }
